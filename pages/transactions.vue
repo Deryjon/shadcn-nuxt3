@@ -3,6 +3,6 @@ const loading = ref(false)
 </script>
 <template>
     <div>
-        main page
+        transaction page
     </div>
 </template>
