@@ -5,7 +5,7 @@ const items = ref([
         title: 'Overview',
         path: '/overview',
         icon: 'ri:dashboard-line',
-        path: '/overview',
+        path: '/',
     },
     {
         title: 'Transactions',
@@ -38,7 +38,7 @@ path: '/account',
     <div>
         <header class="flex items-center gap-2 p-4 hover:scale-[101%] transition cursor-pointer">
             <Logo />
-            <p class="font-bold">Nuxt-Finance</p>
+            <p class="font-bold text-black">Nuxt-Finance</p>
         </header>
         <div class="px-4 grow">
             <div class="grid gap-4">
